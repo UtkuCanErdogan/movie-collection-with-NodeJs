@@ -5,21 +5,18 @@ export interface MovieDto{
     name: string,
     type: string,
     releaseData: string,
-    description: string,
-    actors: ActorDto[]
+    description: string
 }
 
 export interface createMovieRequest{
     name: string,
     type: string,
     releaseDate: string,
-    description: string,
-    actors: ActorDto[]
+    description: string
 }
 
 export interface updateMovieRequest{
     name: string,
     type: string,
-    releaseDate: string,
-    description: string
+    releaseDate: string
 }

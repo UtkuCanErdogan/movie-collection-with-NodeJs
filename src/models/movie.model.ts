@@ -6,8 +6,7 @@ export interface MovieDocument extends mongoose.Document {
     type : string,
     releaseDate: string,
     description: string,
-    createdAt: Date,
-    actors: ActorDocument['_id']
+    createdAt: Date
 }
 
 const movieSchema = new mongoose.Schema({
